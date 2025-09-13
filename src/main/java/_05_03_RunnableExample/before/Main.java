@@ -1,11 +1,12 @@
-package _05_03.end;
+package _05_03_RunnableExample.before;
+
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Thread threadOne = new Thread(new RunnableExample());
-        Thread threadTwo = new Thread(() -> System.out.println("Hello world from a lambda style runnable"));
+        Thread threadOne = new ThreadExample();
+        Thread threadTwo = new ThreadExample();
 
         threadOne.setName("First thread");
         threadTwo.setName("Second thread");

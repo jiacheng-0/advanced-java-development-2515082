@@ -1,4 +1,4 @@
-package _05_03.before;
+package _05_03_RunnableExample.before;
 
 public class ThreadExample extends Thread {
 

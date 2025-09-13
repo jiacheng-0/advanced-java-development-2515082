@@ -1,4 +1,4 @@
-package _05_03.end;
+package _05_03_RunnableExample.end;
 
 public class RunnableExample implements Runnable {
 

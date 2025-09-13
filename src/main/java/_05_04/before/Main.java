@@ -1,7 +1,5 @@
 package _05_04.before;
 
-import _05_03.end.RunnableExample;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
